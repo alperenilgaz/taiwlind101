@@ -9,11 +9,16 @@ const setStoredTheme = (theme) => localStorage.setItem("theme", theme);
 
 const applyTheme = (theme) => {
   if (theme === "dark") {
+    
     document.body.classList.add("bg-slate-800", "text-white");
+    document.documentElement.classList.add("dark")
     document.body.classList.remove("bg-white", "text-black");
+    
   } else {
     document.body.classList.add("bg-white", "text-black");
+    document.documentElement.classList.remove("dark")
     document.body.classList.remove("bg-slate-800", "text-white");
+    
   }
 };
 
