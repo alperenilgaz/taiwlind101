@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "tailwindcss -i ./src/index.css -o ./public/style.css",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+
   },
   "dependencies": {
     "bootstrap-icons": "^1.11.3",

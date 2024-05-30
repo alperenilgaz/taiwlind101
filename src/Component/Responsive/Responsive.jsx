@@ -25,18 +25,18 @@ const Responsive = () => {
 
         </div>
         
-        <h2 className='text-lg mt-5'>Responsive Card Design</h2>
-        <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <h2 className=' text-lg mt-5'>Responsive Card Design</h2>
+        <div className="dark:bg-slate-800 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
             <div className="flex flex-row md:flex-col">
               <div className="md:shrink-0"></div>
               <img className='h-16 flex  w-32 object-contain md:h-full md:w-48' src={logo} alt="" />
            
-            <div className="p-8">
-             <div className='uppercase tracking-wide text-sm text-indigo-500 font-semibold'>
+            <div className=" p-8">
+             <div className=' dark:text-white uppercase tracking-wide text-sm text-indigo-500 font-semibold'>
               Company retreats
              </div>
-             <a className='block mt-1 text-lg leading-tight font-medium text-black  hover:underline' href="#">Incredible accommodation for your team</a>
-             <p className='mt-2 text-slate-500'>Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+             <a className='dark:text-gray-300 block mt-1 text-lg leading-tight font-medium text-black  hover:underline' href="#">Incredible accommodation for your team</a>
+             <p className='mt-2 dark:text-gray-400 text-slate-500'>Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
             </div>
         </div>
         </div>
